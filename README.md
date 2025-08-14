@@ -20,8 +20,8 @@ HTTP Client: Fetch API
 
 🚀 Setup & Run Instructions
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/student-management.git
-cd student-management
+    git clone https://github.com/yourusername/student-management.git
+    cd student-management
 
 2️⃣ Install Dependencies
 npm install
@@ -44,8 +44,9 @@ npm start
 📝 Brief Implementation Summary
 
 Data Fetching & Transformation
+
   Used fetch to get user data from DummyJSON API.
-Mapped users into a student object format:
+  Mapped users into a student object format:
 
 {
   id: user.id,
@@ -55,18 +56,22 @@ Mapped users into a student object format:
 }
 
 Dashboard
+
   Displays total student count.
   Shows a welcome message.
 
 Student List
+
   Search bar to filter by name.
   Table with ID, Name, Course, Status.
   Styled using Tailwind for responsive design.
 
 Add Student Form
+
   Inputs for Name, Course, Status.
   Updates local state to add new records.
 
 Responsive UI
   Tested on mobile & desktop screen sizes.
   Used Tailwind’s grid & flex utilities for layout.
+
